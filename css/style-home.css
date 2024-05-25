@@ -1,0 +1,164 @@
+/* Permite a compatibilidade com acentuação*/
+@charset "UTF-8";
+
+
+/* Configurações do header*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+    background-color: #86D3A050;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  /* configurações da Navbar */
+  .navbar {
+      width: 100%;
+      height: 80px;
+      background-color: green;
+      padding: 0 rem;
+      margin-bottom: 100px;}
+  
+  /* configurações das navbar-itens */
+  .navbar-itens {position: absolute;
+      right: 0;
+      height: 60px;
+      gap: 5px;
+      margin-left: 0;
+      display: inline-block;
+  
+    
+  }
+  /* configurações das nav*/
+      nav {
+          position: relative;
+        }
+        /* configurações das Logo*/
+        .logo {
+            margin-top: 5px;
+            margin-left: 5px;
+          width: 70px;
+          height: 70px;
+        }
+        /* configurações da navbar-items*/
+        .navbar-items {
+          position: absolute;
+          right: 0;
+          height: 60px;
+         gap: 5px;
+          margin-left: 0;
+          display: inline-block;
+      
+         
+        }
+          /* configurações dos "li" da Navbar-itens */
+        .navbar-items li {
+          display: inline-block;
+          text-transform: uppercase;
+          margin-left: 20px;
+        
+        }
+        /* configurações dos links da Navbar-itens */
+        .navbar-items a {
+          color: black;
+          text-decoration: none;
+          transition: 0.5s;
+          margin-right: 10px;
+        
+        }
+        /* configurações dos links da Navbar-itens quando o mouse é passado em cima deles */
+        .navbar-items a:hover {
+          color: #ccc;
+        }
+/* Configurações do banner Principal */
+.banner-principal {
+    background-image: url("../img/cidade_verde01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+position: relative;
+    padding: 25vh;
+    
+}
+/* configurações do "h1" e "p" do banner principal  */
+.banner-principal h1, .banner-principal p{
+    text-align: center;
+    font-weight: bold;
+  
+    
+}
+/* configurações do "h1" do banner principal */
+.banner-principal h1 {
+    font-size: 6em;
+    color: white;
+
+}
+/* configurações do "p" do banner principal */
+.banner-principal p {
+    font-size: 4em;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* Configurações da imagem principal */
+
+.imagem1 {
+    background-image: url("../img/cidade_vede1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+}
+    
+/* Configurações dos cards com links para outras páginas */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+           justify-content: center;
+           align-items: center;
+        font-size: 16px;
+        border: 2px solid gray;
+      
+    }
+    /* Configurações do "significado de ESG" */
+    .cards .links {
+        border: 1px solid black;
+        border-radius: 40px;
+        margin-top: 20px;
+        background-color: white;
+        width: 360px;
+    padding-top: 30px;
+    height: 320px;
+    margin-left: 20px;
+    }
+    /* Configurações do "hr" */
+    hr 
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+            height: 5px;
+            border-color: orange;
+            background-color: orange;
+           }
+         
+           /* Configurações da localização e informações de contato */
+           .localizacao {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 50px;
+         margin-left: 8%;
+           }
+               /* Configurações do parágrafos da localização e informações de contato */
+           .localizacao p {
+            font-size: 20px;
+              
+           }

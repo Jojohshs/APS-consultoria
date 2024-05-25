@@ -1,0 +1,5 @@
+@media (max-width: 800px) {
+    .navbar li {
+        margin-left: 20%;
+        font-size: 80%;
+       } }

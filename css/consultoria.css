@@ -1,0 +1,211 @@
+/* Configurações do header*/
+header {
+  background-image: linear-gradient(to bottom, blue, rgb(168, 168, 255));
+
+  height: 10vh;
+
+  padding: 0px 20px;
+}
+/* configurações da Navbar */
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    padding: 0 rem;
+    margin-bottom: 100px;}
+
+/* configurações das navbar-itens */
+.navbar-itens {position: absolute;
+    right: 0;
+    height: 60px;
+    gap: 5px;
+    margin-left: 0;
+    display: inline-block;
+
+  
+}
+/* configurações das nav*/
+    nav {
+        position: relative;
+      }
+      /* configurações das Logo*/
+      .logo {
+        width: 50px;
+        margin-top: 15px;
+        height: 50px;
+      }
+      /* configurações da navbar-items*/
+      .navbar-items {
+        position: absolute;
+        right: 0;
+        height: 60px;
+       gap: 5px;
+        margin-left: 0;
+        display: inline-block;
+    
+       
+      }
+        /* configurações dos "li" da Navbar-itens */
+      .navbar-items li {
+        display: inline-block;
+        text-transform: uppercase;
+        margin-left: 20px;
+      
+      }
+      /* configurações dos links da Navbar-itens */
+      .navbar-items a {
+        color: black;
+        text-decoration: none;
+        transition: 0.5s;
+        margin-right: 10px;
+      
+      }
+      /* configurações dos links da Navbar-itens quando o mouse é passado em cima deles */
+      .navbar-items a:hover {
+        color: #ccc;
+      }
+  /* Seção com configurações da imagem principal*/
+      .imagem-principal {
+        background-image:url(../img/cidade_verde01.png) ;
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+    }
+    /* Configurações do titulo principal e do parágrafo dentro da seção "imagem-principal"  */
+    .imagem-principal h1, .imagem-principal p{
+        text-align: center;
+        font-weight: bold;
+    }
+    /* Configurações do título principal dentro da div "titulo-principal" */
+   .titulo-principal h1 {
+    font-size: 35px;
+    color: black;
+   }
+
+   /*Configurações da seção com o título secunário */
+   .secao2 {
+    margin-top: 100px;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+   }
+   /*Configurações do título secunário */
+   .secao2 p {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+
+   }
+   /* Seção com a explicação de como funciona a consultoria */
+   .consultoria-section {
+   background-image: url(../img/cidade_verde01.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   align-content: center;
+   gap: 50px;
+   }
+
+/* Configurações do parágrafo dentro da seção: "consultoria-section" */
+   .consultoria-section p {
+    margin-left: 10px;
+   }
+   /* Configurações dos títulos dentro da seção: "consultoria-section" */
+   .consultoria-section h1 {
+text-align: center;
+font-size: 30px;
+color:orange;
+   }
+  /* Configurações dos cards com as etapas da consultoria dentro da seção: "consultoria-section" */
+   .consultoria-section .servicos  {
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 10px;
+    background-color: white;
+    width: 360px;
+padding-top: 30px;
+height: 320px;
+    
+   }
+    /* Configurações do "hr" */
+    hr {
+      margin-top: 30px;
+      margin-bottom: 30px;
+          height: 5px;
+          border-color: orange;
+          background-color: orange;
+         }
+         /* Configurações da iamegm dentro da tag "links" */
+         .links img {
+          width: 150px;
+          height: 150px;
+          margin-right: 100px;
+         }
+      /* Configurações dos parágrafos dentro da tag "links"*/
+         .links p {
+          width: 140px;
+          
+         }
+          /* Configurações do parágrafo dentro da tag "outros-links"*/
+         .outros-links p {
+          font-size: 20px;
+        }
+          /* Configurações da tag "outros-links"*/
+           .outros-links {
+            margin-left: 250px;
+            margin-top: -300px;
+           }
+            /* Configurações da tag "outros-links2"*/
+           .outros-links2 {
+            margin-left: 650px;
+            margin-top: -280px;
+            
+           }
+            /* Configurações da tag "institucional" dentro da tag "outros-links"*/
+
+           .outros-links .institucional {
+            color: orange;
+            font-size: 25px;
+           }
+             /* Configurações do parágrafo dentro da tag "outros-links2" */
+
+           .outros-links2 p {
+            font-size: 20px;
+           }
+             /* Configurações da tag "contato" dentro da tag "outros-links"*/
+           .outros-links2 .contato {
+            color: orange;
+            font-size: 25px;
+            margin-top:88px ;
+        
+           }
+
+/* Configurações do hr*/
+           hr {
+              margin-top: 50px;
+              margin-bottom: 30px;
+                  height: 5px;
+                  border-color: orange;
+                  background-color: orange;
+                 }
+                        /* Configurações do links para outras páginas */
+           .navegar-para-outras-paginas {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 50px;
+         margin-left: 8%;
+           }
+               /* Configurações do parágrafos dos links para outras páginas */
+           .navegar-para-outras-paginas p {
+            font-size: 20px;
+              
+           }
+            

@@ -1,0 +1,398 @@
+/* Configurações do header*/
+header {
+    background-image: linear-gradient(to bottom, blue, rgb(168, 168, 255));
+  
+    height: 10vh;
+  
+    padding: 0px 20px;
+  }
+  /* configurações da Navbar */
+  .navbar {
+      width: 100%;
+      height: 80px;
+      background-color: green;
+      padding: 0 rem;
+      margin-bottom: 100px;}
+  
+  /* configurações das navbar-itens */
+  .navbar-itens {position: absolute;
+      right: 0;
+      height: 60px;
+      gap: 5px;
+      margin-left: 0;
+      display: inline-block;
+  
+    
+  }
+  /* configurações das nav*/
+      nav {
+          position: relative;
+        }
+        /* configurações das Logo*/
+        .logo {
+          width: 50px;
+          margin-top: 15px;
+          height: 50px;
+        }
+        /* configurações da navbar-items*/
+        .navbar-items {
+          position: absolute;
+          right: 0;
+          height: 60px;
+         gap: 5px;
+          margin-left: 0;
+          display: inline-block;
+      
+         
+        }
+          /* configurações dos "li" da Navbar-itens */
+        .navbar-items li {
+          display: inline-block;
+          text-transform: uppercase;
+          margin-left: 20px;
+        
+        }
+        /* configurações dos links da Navbar-itens */
+        .navbar-items a {
+          color: black;
+          text-decoration: none;
+          transition: 0.5s;
+          margin-right: 10px;
+        
+        }
+        /* configurações dos links da Navbar-itens quando o mouse é passado em cima deles */
+        .navbar-items a:hover {
+          color: #ccc;
+        }
+        /* div com configurações do título principal */
+      .titulo-principal {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      
+/* Explicação do cálculo de contagem de carbono*/
+
+.significado-do-resultado {
+    border: 2px solid black;
+    border-radius: 10px;
+    border-width: 2px;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: white;
+    
+  }
+
+  /* div com os cards para realizar os cálculos das emissões de carbono*/
+ .cards-calculo {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-gap: 20px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+     }
+     /* Configurações do parágrafo dentro do card-energia-elétrica*/
+.energia-eletria p {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Configurações do campo onde deve-de colocar o gasto mensal de energia-elétrica */
+
+#numero1 {
+    width: auto;
+    height: auto;
+}
+/* Configurações do campo "gasto-mensal-energia" */
+#gasto-mensal-energia{
+    padding-left: 190px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 110px;
+    margin-left: 50px;
+
+ 
+}
+/* Configurações do card de energia elétrica */
+
+.energia-eletrica {
+
+    padding-bottom: 30px;
+    border: 3px solid black;
+    padding-right: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+/* Configurações do gasto de energia elétrica */
+
+#valor-mensal-energia{
+margin-left: 250px;
+font-size: 25px;
+font-weight: bold;
+margin-top: -170px;
+margin-top: -100px;
+}
+
+/* Configurações do botão para adicionar valore da energia-elétrica*/
+#adicionar-valor-energia {
+    width: auto;
+    height: auto;
+}
+
+
+ /* Configurações do parágrafo dentro do card-água*/
+.agua p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Configurações do campo onde deve-de colocar o gasto mensal de água */
+#numero2 {
+    width: auto;
+    height: auto;
+}
+/* Configurações do gasto mensal de água */
+#gasto-mensal-agua{
+    padding-left: 190px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 110px;
+    margin-left: 50px;
+}
+
+/* Configurações do card de água */
+.agua {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid black;
+    padding-right: 30px;
+    width: 300px;
+    height: 300px;
+    
+    background-color: white;
+}
+/* Configurações do valor mensal de água */
+#valor-mensal-agua{
+margin-left: 250px;
+font-size: 25px;
+font-weight: bold;
+margin-top: -170px;
+margin-top: -100px;
+}
+/* Configurações do botão para adicionar valor da água*/
+#adicionar-valor-agua {
+    width: auto;
+    height: auto;
+}
+
+/* Configurações do botão para adicionar valor da água*/
+#adicionar-valor-gas {
+    width: auto;
+    height: auto;
+}
+
+ /* Configurações do parágrafo dentro do card-gás*/
+.gas p {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Configurações do campo onde deve-de colocar o gasto mensal de gás*/
+#numero3 {
+    width: auto;
+    height: auto;
+}
+/* Configurações do campo onde deve-de colocar o número de butijões de gás usados por mês*/
+.gas #numero3segundo{
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+}
+/* Configurações do botão para adicionar valor do gás */
+#gasto-mensal-gas{
+    padding-left: 190px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 150px;
+    margin-top: -70px;
+    margin-left: 50px;
+
+}
+
+/* Configurações do card de gás */
+.gas {
+    
+    padding-bottom: 30px;
+    border: 3px solid black;
+    padding-right: 30px;
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+  padding-bottom: -36px;
+  background-color: white;
+}
+/* Configurações do valor mensal de gás */
+#valor-mensal-gas{
+margin-left: 250px;
+font-size: 25px;
+font-weight: bold;
+margin-top: -170px;
+margin-top: -165px;
+}
+
+.residuos {
+    
+    padding-bottom: 30px;
+    border: 3px solid black;
+    padding-right: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+}
+#valor-mensal-residuos{
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -170px;
+    margin-top: -100px;
+    }
+.residuos p {
+    font-size: 20px;
+    font-weight: bold;
+}
+#numero4 {
+    width: auto;
+    height: auto;
+}
+#gasto-mensal-residuos{
+    padding-left: 190px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 110px;
+    margin-left: 50px;
+}
+#adicionar-valor-residuos {
+    width: auto;
+    height: auto;
+}
+
+
+/* Seção com a imagem de fundo*/
+.imagem-de-fundo {
+    background-image: url(../img/cidade_verde01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+}
+
+
+  /* botão para realizar o cálculo das emissões */
+  .btn-soma {
+    margin-left: 35%;
+    margin-top: 30px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+  }
+/* Configurações de onde o resultado da conta é mostrado */
+#resultado {
+    border-radius: 10px;
+    border-width: 2px;
+   
+    border: 1px solid orange;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    border-left: 2px;
+    border-right: 2px;
+   
+
+    
+}
+ /* Configurações do "hr" */
+ hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+        height: 5px;
+        border-color: orange;
+        background-color: orange;
+       }
+       /* Configurações da iamegm dentro da tag "links" */
+       .links img {
+        width: 150px;
+        height: 150px;
+        margin-right: 100px;
+       }
+    /* Configurações dos parágrafos dentro da tag "links"*/
+       .links p {
+        width: 140px;
+        
+       }
+        /* Configurações do parágrafo dentro da tag "outros-links"*/
+       .outros-links p {
+        font-size: 20px;
+      }
+        /* Configurações da tag "outros-links"*/
+         .outros-links {
+          margin-left: 250px;
+          margin-top: -300px;
+         }
+          /* Configurações da tag "outros-links2"*/
+         .outros-links2 {
+          margin-left: 650px;
+          margin-top: -280px;
+          
+         }
+          /* Configurações da tag "institucional" dentro da tag "outros-links"*/
+
+         .outros-links .institucional {
+          color: orange;
+          font-size: 25px;
+         }
+           /* Configurações do parágrafo dentro da tag "outros-links2" */
+
+         .outros-links2 p {
+          font-size: 20px;
+         }
+           /* Configurações da tag "contato" dentro da tag "outros-links"*/
+         .outros-links2 .contato {
+          color: orange;
+          font-size: 25px;
+          margin-top:88px ;
+      
+         }
+
+/* Configurações do hr*/
+         hr {
+            margin-top: 50px;
+            margin-bottom: 30px;
+                height: 5px;
+                border-color: orange;
+                background-color: orange;
+               }
+         /* Configurações da localização e informações de contato */
+         .localizacao {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 50px;
+       margin-left: 8%;
+         }
+             /* Configurações do parágrafos da localização e informações de contato */
+         .localizacao p {
+          font-size: 20px;
+            
+         }

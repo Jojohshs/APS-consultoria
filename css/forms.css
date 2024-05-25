@@ -1,0 +1,190 @@
+/* Configurações do header*/
+header {
+  background-image: linear-gradient(to bottom, blue, rgb(168, 168, 255));
+
+  height: 10vh;
+
+  padding: 0px 20px;
+}
+/* configurações da Navbar */
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    padding: 0 rem;
+    margin-bottom: 100px;}
+
+/* configurações das navbar-itens */
+.navbar-itens {position: absolute;
+    right: 0;
+    height: 60px;
+    gap: 5px;
+    margin-left: 0;
+    display: inline-block;
+
+  
+}
+/* configurações das nav*/
+    nav {
+        position: relative;
+      }
+      /* configurações das Logo*/
+      .logo {
+        width: 50px;
+        margin-top: 15px;
+        height: 50px;
+      }
+      /* configurações da navbar-items*/
+      .navbar-items {
+        position: absolute;
+        right: 0;
+        height: 60px;
+       gap: 5px;
+        margin-left: 0;
+        display: inline-block;
+    
+       
+      }
+        /* configurações dos "li" da Navbar-itens */
+      .navbar-items li {
+        display: inline-block;
+        text-transform: uppercase;
+        margin-left: 20px;
+      
+      }
+      /* configurações dos links da Navbar-itens */
+      .navbar-items a {
+        color: black;
+        text-decoration: none;
+        transition: 0.5s;
+        margin-right: 10px;
+      
+      }
+      /* configurações dos links da Navbar-itens quando o mouse é passado em cima deles */
+      .navbar-items a:hover {
+        color: #ccc;
+      }
+      /* configurações do título principal */
+.t1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+
+}
+/* configurações da primeira pergunta */
+.p1 {
+    margin-left: 25px;
+   text-align: center;
+   font-size: 20px;
+   font-style: normal;
+}
+
+/* configurações da seguunda pergunta */
+.p2 {
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 35px;
+    font-style: normal;
+}
+/* configurações da terceira pergunta */
+.p3 {
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+/* configurações da quarta pergunta */
+.p4 {
+    margin-left: 25px;
+    text-align: center;
+    font-size: 20px;
+
+}
+/* div com o botão para enviar as informações respondidas no questionário*/
+.enviar {
+    text-align: center;
+   
+}
+/* Botão para enviar as informações respondidadas no questionário*/
+.enviar button {
+    width: 100px;
+    height: 30px;
+ 
+}
+/* configurações do hr*/
+      hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+            height: 5px;
+            border-color: orange;
+            background-color: orange;
+           }
+           /* configurações da imagem dentro da tag "links" */
+           .links img {
+            width: 150px;
+            height: 150px;
+           }
+        /* configurações do parágrafo dentro da tag links */
+           .links p {
+            width: 140px;
+            
+           }
+           /* Configurações dos parágrafos dentro da tag "outros-links"*/
+        .outros-links p {
+          font-size: 20px;
+        }
+        /* Configurações da tag "outros-links"*/
+
+           .outros-links {
+            margin-left: 250px;
+            margin-top: -300px;
+           }
+            /* Configurações da tag "outros-links2"*/
+
+           .outros-links2 {
+            margin-left: 650px;
+            margin-top: -280px;
+            
+           }
+            /* Configurações da tag "institucional" dentro da tag "outros-links"*/
+
+           .outros-links .institucional {
+            color: orange;
+            font-size: 25px;
+           }
+             /* Configurações do parágrafo dentro da tag "outros-links2" */
+
+             .outros-links2 p {
+              font-size: 20px;
+             }
+               /* Configurações da tag "contato" dentro da tag "outros-links"*/
+             .outros-links2 .contato {
+              color: orange;
+              font-size: 25px;
+              margin-top:88px ;
+          
+             }
+ 
+  /* Configurações do hr*/
+             hr {
+                margin-top: 50px;
+                margin-bottom: 30px;
+                    height: 5px;
+                    border-color: orange;
+                    background-color: orange;
+                   }
+         /* Configurações da localização e informações de contato */
+         .localizacao {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 50px;
+       margin-left: 8%;
+         }
+             /* Configurações do parágrafos da localização e informações de contato */
+         .localizacao p {
+          font-size: 20px;
+            
+         }
+              
